@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.body {
+  padding: 0.1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  --bs-card-border-width: 1px;
+  --bs-card-border-radius: 2px;
+}
+
+.form-control {
+  border-radius: 2px;
+}
+
+.btn-primary {
+  --bs-btn-border-radius: 2px;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #3d9f40;
+  --bs-btn-border-color: #777;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #3d9f40;
+  --bs-btn-hover-border-color: #777;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #257227;
+  --bs-btn-active-border-color: black;
+  --bs-btn-focus-box-shadow: none;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #777;
+  --bs-btn-disabled-border-color: #777;
+}
+
+.form-control {
+  border-color: #999;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: #777;
+  box-shadow: none;
+  background-color: rgb(251, 251, 251);
+  transition: 0.15s ease-in-out;
 }
